@@ -16,7 +16,7 @@ def calculate_ethanol_mix(current_fuel_level, current_ethanol_content, tank_size
         st.error("Error: Current ethanol content is already higher than the target ethanol content. You cannot lower the ethanol content by adding more ethanol.")
         return None, None
 
-    if current_fuel_level > 95:
+    if current_fuel_level > 80:
         st.error("Error: Current fuel level is too high to make a significant adjustment to the ethanol content. Please refuel after consuming some fuel.")
         return None, None
 
