@@ -49,7 +49,7 @@ st.title("Ethanol Content Calculator")
 # Input fields for the user
 current_fuel_level = st.slider("Current Fuel Level (%)", 0, 100, 50)
 current_ethanol_content = st.slider("Current Ethanol Content (%)", 0, 100, 10)
-tank_size = st.number_input("Fuel Tank Size (gallons)", value=15.0)
+tank_size = st.number_input("Fuel Tank Size (gallons)", value=12.4)
 target_ethanol_content = st.slider("Target Ethanol Content (%)", 0, 100, 30)
 base_fuel_ethanol_content = st.slider("Ethanol % of Base Fuel (E.g., 93E10 = 10%)", 0, 100, 10)
 
