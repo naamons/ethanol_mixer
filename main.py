@@ -64,7 +64,7 @@ def calculate_ethanol_mix(current_fuel_level, current_ethanol_content, tank_size
     return V1, V2
 
 # Streamlit UI
-st.title("Ethanol Content Calculator")
+st.title("SXTHNK Ethanol Content Calculator")
 
 # Input fields with more restrictive ranges and better defaults
 current_fuel_level = st.slider("Current Fuel Level (%)", 0, 100, 50)
